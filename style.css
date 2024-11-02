@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#home {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home .content {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+}
