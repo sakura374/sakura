@@ -1,14 +1,15 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakura Portfolio</title>
+    <link rel="icon" href="assets/icon.png" type="image/png"> <!-- سطر الأيقونة الجديد -->
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <!-- شريط علوي مع أيقونة -->
+    <!-- ترويسة علوي مع أيقونة -->
     <header class="top-bar">
         <span class="title">Sakura Portfolio</span>
         <img src="assets/icon.png" alt="Icon" class="icon">
@@ -20,7 +21,7 @@
             <h1>Hallo, my name is Sakura</h1>
             <button onclick="window.location.href='https://discord.gg/florist-h'">Join my Discord server</button>
         </section>
-        
+
         <nav>
             <ul>
                 <li><a href="#contact">تواصل معي</a></li>
@@ -28,43 +29,6 @@
                 <li><a href="#about">About Me</a></li>
             </ul>
         </nav>
-
-        <!-- قسم تواصل معي -->
-        <section id="contact">
-            <h2>تواصل معي</h2>
-            <form action="mailto:amiralnahar20@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" required><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea><br>
-                <input type="submit" value="Send Message">
-            </form>
-        </section>
-
-        <!-- قسم المهارات -->
-        <section id="skills">
-            <h2>My Skills</h2>
-            <ul>
-                <li>JavaScript: 90%</li>
-                <li>Python: 70%</li>
-                <li>TypeScript: 80%</li>
-                <li>Cybersecurity: 60%</li>
-                <li>HTML & CSS: 90%</li>
-                <li>Java: 35%</li>
-            </ul>
-        </section>
-
-        <!-- قسم عني -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>تاريخ الميلاد: 2005/04/06</p>
-            <p>الدولة: سوريا</p>
-            <p>اللغات: العربية، الإنجليزية، التركية، الألمانية</p>
-        </section>
     </main>
 </body>
 </html>
