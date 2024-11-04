@@ -1,0 +1,96 @@
+
+/* إعدادات أساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2e2b2b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* تصميم الشريط العلوي */
+.top-bar {
+    background-color: #e5b653;
+    color: #000;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-bar .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top-bar .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* المحتوى الرئيسي */
+main {
+    margin-top: 80px;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* تنسيقات النص والأزرار */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc2929;
+}
+
+.highlight {
+    color: #ff3333;
+    font-weight: bold;
+}
+
+p, li {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* تنسيق القوائم */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
